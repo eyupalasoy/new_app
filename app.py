@@ -3,6 +3,9 @@ import scipy.stats
 import streamlit as st
 import time
 
+
+st.header('Tossing a Coin')
+st.write('It is not a functional application yet. Under construction.')
 # Initialize stateful variables if they don't exist
 if 'experiment_no' not in st.session_state:
     st.session_state['experiment_no'] = 0
